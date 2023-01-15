@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Website</title>
+  <link rel="shortcut icon" type="x-icon" href="logo.png">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://kit.fontawesome.com/ac97327f06.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="topmost"></div>
+  <navbar id="navbar">
+    <a href="#topmost">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#footer">Contact</a>
+  </navbar>
+      <button id="hb-icon" onclick="toggleMenu()">X</button>
+  <div id="welcome-section">
+    <h1>Hey I am Mohammed Awal Dev</h1>
+    <p>a web developer</p>
+  </div>
+
+
+
+<!--Beginning of about section-->
+
+<div id="about">
+  <div class="abt-bg"></div>
+  <div class="abt-bg"></div>
+  <div class="abt-bg"></div>
+  <div class="abt-bg"></div>
+  <header>Facts about me</header>
+  <p>I always like to learn new things</p>
+  <p>I like to take on more challenging tasks as this helps me get exposed to new ideas</p>
+  <p>
+    Aside the and styling language, I am good at working with frameworks such as bootstrap and jquery
+  </p>
+  <p>I know the basics of JavaScript and still learning to advance with that language which will also be useful in most cases</p>
+  
+  
+</div>
+
+
+
+<!--Beginning of my project section -->
+  <div id="projects">
+    <header>These are some of my projects</header>
+    <div class="projects-grid">
+      <div class="project"><a href="https://company-web-temp.netlify.app" target="_blank" class="project project-tile">                                 
+          <img class="project-image" src="images/projects/company-website.png" alt="project">
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Responsive Website Design
+            <span class="code">/&gt;</span>
+          </p>
+        </a>
+        </div>
+
+      <div class="project">
+        <a href="https://barbershop-website-template.netlify.app" target="_blank" class="project project-tile">
+          <img class="project-image" src="images/projects/barbershop-website.png" alt="project" width="1070" height="682">
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Barbershop Website
+            <span class="code">/&gt;</span>
+          </p>
+        </a>
+      </div>
+
+
+      <div class="project">
+        <a href="https://product-pg.netlify.app" target="_blank" class="project project-tile">
+          <img class="project-image" src="images/projects/product-landing-page.png" alt="project">
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Product Landing Page
+            <span class="code">/&gt;</span>
+          </p>
+        </a>
+      </div>
+
+      <div class="project">
+        <a href="https://bejewelled-wisp-dac8c1.netlify.app" target="_blank" class="project project-tile">
+          <img class="project-image" src="images/projects/developer-guide.png" alt="project">
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Developer's Guide
+            <span class="code">/&gt;</span>
+          </p>
+        </a>
+      </div>
+      </div>
+      <p id="p"><a href="https://github.com/wanez17" target="_blank" id="show-all">Source Codes   <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg></span></a></p>
+  </div>
+  <!--End of my project section -->
+
+  <!--Beginning of my contact section -->
+  <div class="contact">
+    <h1>Let's work together...</h1>
+    <p>I would like to be exposed to more challenging tasks</p>
+    <div id="contact-me">
+    <a href="https://facebook.com/mohammed.wangh.58?_rdc=1&_rdr" target="_blank">
+     <span class="social-icon"><i class="fa-brands fa-facebook"></i></span> Facebook
+    </a>
+    <a href="https://twitter.com/code17lolly" target="_blank" id="profile-link">
+     <span class="social-icon"><i class="fa-brands fa-twitter"></i></span> Twitter
+    </a>
+    <a href="https://github.com/wanez17" target="_blank">
+     <span class="social-icon"><i class="fa-brands fa-github"></i></span> Github
+    </a>
+    <a href="https://www.linkedin.com/in/mohammed-awal-dev" target="_blank">
+    <span class="social-icon"><i class="fa-brands fa-linkedin"></i></span> Linkedin
+     </a>
+    </div>
+      <div id="hr"></div>
+        <!--footer nested within the contact div -->
+
+        <div id="footer">
+          <p id="disclaimer">I coded everything from scratch and I therefore own 100% rights to the <span id="f-code">< code /></span>  but do not own the rights to the design</p>
+        <p id="copyright">&copy Mohammed Awal Dev</p>
+
+
+        </div>
+  </div>
+  <!--Ending of my contact section -->
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
