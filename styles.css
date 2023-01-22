@@ -123,8 +123,8 @@ font-family: 'Montserrat', sans-serif;
   background-color: transparent;
   border-radius: 50%;
   border: 10px solid var(--RED);
-  top: -60px;
-  right: -110px;
+  top: -150px;
+  right: -200px;
 }
 
 #about .abt-bg:nth-child(3){
@@ -184,6 +184,8 @@ padding:0;
 margin-left:auto;
 margin-right: auto;
 display: block;
+padding: 10px;
+padding-top: 1rem;
 }
 
 .project a{
