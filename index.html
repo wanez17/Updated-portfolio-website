@@ -20,7 +20,7 @@
       <button id="hb-icon" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></button>
   <div id="welcome-section">
     <h1>Hey I am Mohammed Awal Dev</h1>
-    <p>a web developer</p>
+    <p id="greetings-text"></p>
   </div>
 
 
@@ -52,7 +52,7 @@
 <!--Beginning of my project section -->
   <div id="projects">
     <header>These are some of my projects</header>
-    <div class="projects-grid">
+    <!-- <div class="projects-grid">
       <div class="project"><a href="https://company-web-temp.netlify.app" target="_blank" class="project project-tile">                                 
           <img class="project-image" src="images/projects/company-website.png" alt="project">
           <p class="project-title">
@@ -79,7 +79,7 @@
           <img class="project-image" src="images/projects/e-commerce.png" alt="project" width="1070" height="682">
           <p class="project-title">
             <span class="code">&lt;</span>
-            E-Commerce Website
+            Product Page
             <span class="code">/&gt;</span>
           </p>
         </a>
@@ -121,7 +121,95 @@
       </div>
       <p id="p"><a href="https://github.com/wanez17" target="_blank" id="show-all">Source Codes   <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-</svg></span></a></p>
+</svg></span></a></p> -->
+
+
+<div class="sortable-projects"> 
+
+<div class="main">
+
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('css')"> CSS</button>
+  <button class="btn" onclick="filterSelection('javaScript')"> JavaScript</button>
+  <button class="btn" onclick="filterSelection('ongoing-projects')"> Ongoing Projects</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column css">
+    <div class="content">
+      <img src="images/projects/company-website.png" alt="project" style="width:100%">
+      <p class="project-name">Responsive Website Design</p>
+      <div class="link-btns">
+      <div class="live-preview"><a href="">Live preview</a></div>
+      <div  class="view-code"><a href="">View code</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="column css">
+    <div class="content">
+    <img src="images/projects/barbershop-website.png" alt="Lights" style="width:100%">
+      <p class="project-name">Barbershop Website</p>
+      <div class="link-btns">
+      <div class="live-preview"><a href="">Live preview</a></div>
+      <div  class="view-code"><a href="">View code</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="column css">
+    <div class="content">
+    <img src="images/projects/e-commerce.png" alt="Product page thumbnail" style="width:100%">
+      <p class="project-name">Product Page</p>
+      <div class="link-btns">
+      <div class="live-preview"><a href="">Live preview</a></div>
+      <div  class="view-code"><a href="">View code</a></div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column css">
+    <div class="content">
+      <img src="images/projects/iphone-website.png" alt="project" style="width:100%">
+      <p class="project-name">Phone Company Website</p>
+      <div class="link-btns">
+      <div class="live-preview"><a href="">Live preview</a></div>
+      <div  class="view-code"><a href="">View code</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="column css">
+    <div class="content">
+    <img src="images/projects/product-landing-page.png" alt="project" style="width:100%">
+     <p class="project-name">Product Landing Page</p>
+      <div class="link-btns">
+      <div class="live-preview"><a href="">Live preview</a></div>
+      <div  class="view-code"><a href="">View code</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="column css">
+    <div class="content">
+    <img src="images/projects/developer-guide.png" alt="project" style="width:100%">
+     <p class="project-name">Developer's Guide</p>
+      <div class="link-btns">
+      <div class="live-preview"><a href="">Live preview</a></div>
+      <div  class="view-code"><a href="">View code</a></div>
+      </div>
+    </div>
+  </div>
+
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</div>
+
+
+
   </div>
   <!--End of my project section -->
 
@@ -147,8 +235,8 @@
         <!--footer nested within the contact div -->
 
         <div id="footer">
-          <p id="disclaimer">I coded everything from scratch and I therefore own 100% rights to the <span id="f-code">< code /></span>  but do not own the rights to the design</p>
-        <p id="copyright">&copy Mohammed Awal Dev</p>
+          <p id="disclaimer">Coded <span id="f-code">with love</span>  by Mohammed Awal Dev</p>
+        <p id="copyright">Copyrights &copy 2023</p>
 
 
         </div>
