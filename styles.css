@@ -7,6 +7,7 @@
 --RED:#d0312d;
 --WHITE:ghostwhite;
 --GRAY:#494848;
+--OFF-BLACK:#333;
 }
 
 *{
@@ -155,21 +156,33 @@ body{
 .live-preview a, .view-code a{
   text-decoration: none;
   color: white;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 1rem;
 }
 
-.view-code{
-  background-color: #333;
-  margin-left: 0.7rem;
+.view-code a:hover{
+  border-radius: 20px;
+  background-color: var(--GRAY);
+}
+
+.live-preview a:hover{
+  border-radius: 20px;
+  background-color: var(--BLUE);
+}
+
+.live-preview a{
+  background-color: var(--LBLUE);
+}
+
+.view-code a{
+  background-color: var(--OFF-BLACK);
 }
 
 .live-preview, .view-code{
-  padding: 1rem;
-  width: 50%;
+  width: 48%;
   text-align: center;
-}
-
-.live-preview{
-  background-color: dodgerblue;
 }
 
 .link-btns{
@@ -502,10 +515,24 @@ padding-top: 1rem;
 
 /*This media query is meant for the mobile view of the nav */
 
+@media only screen and (max-width: 470px){
+  .btn{
+    padding: 6px 10px;
+    margin-bottom: 0.3rem;
+  }
+}
+
+
 @media only screen and (max-width: 599px){
   #navbar {
     display: block;
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 677px){
+  .column{
+    width: 100%;
   }
 }
 
